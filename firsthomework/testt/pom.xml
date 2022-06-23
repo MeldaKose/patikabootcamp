@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.meldakose</groupId>
+  <artifactId>testt</artifactId>
+  <version>release</version>
+
+  <name>testt</name>
+  <description>A simple testt.</description>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <release.date>2022/06/23</release.date>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.29</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+       <plugins>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+        <plugin>
+        	<groupId>org.eclipse.m2e</groupId>
+        	<artifactId>lifecycle-mapping</artifactId>
+        	<version>1.0.0</version>
+        	<configuration>
+        		<lifecycleMappingMetadata>
+        			<pluginExecutions>
+        				<pluginExecution>
+        					<pluginExecutionFilter>
+        						<groupId>com.meldakose</groupId>
+        						<artifactId>homework</artifactId>
+        						<versionRange>
+        							[0.0.1-SNAPSHOT,)
+        						</versionRange>
+        						<goals>
+        							<goal>summarize</goal>
+        						</goals>
+        						 <configuration>
+            <outputFile>${project.build.directory}\deneme.txt</outputFile>
+            </configuration>
+        					</pluginExecutionFilter>
+        					<action>
+        						<ignore></ignore>
+        					</action>
+        				</pluginExecution>
+        			</pluginExecutions>
+        		</lifecycleMappingMetadata>
+        	</configuration>
+        </plugin>
+       </plugins>
+    </pluginManagement>
+    <plugins>
+    	
+    	<plugin>
+      	<groupId>com.meldakose</groupId>
+        <artifactId>homework</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <id>x</id>
+            <phase>install</phase>
+            <goals>
+              <goal>summarize</goal>
+            </goals>
+            <configuration>
+            <outputFile>${project.build.directory}\deneme.txt</outputFile>
+            </configuration>
+          </execution>
+          
+        </executions>
+          
+      </plugin>
+    </plugins>
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+</project>

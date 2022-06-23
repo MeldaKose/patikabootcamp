@@ -1,0 +1,1 @@
+Project info:com.meldakose.testt.release Release Date:2022/06/23 Dependency: junit.junit Dependency: mysql.mysql-connector-java Plugin: maven-site-plugin Plugin: maven-clean-plugin Plugin: maven-jar-plugin Plugin: maven-compiler-plugin Plugin: maven-surefire-plugin Plugin: homework Plugin: maven-install-plugin Plugin: maven-resources-plugin Plugin: maven-deploy-plugin

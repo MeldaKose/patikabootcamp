@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.meldakose.testt.AppTest" time="0.006" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\melda\eclipse-workspace\testt\target\test-classes;C:\Users\melda\eclipse-workspace\testt\target\classes;C:\Users\melda\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\melda\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\melda\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\melda\AppData\Local\Temp\surefire17146891086905563224\surefirebooter11049684400351009007.jar C:\Users\melda\AppData\Local\Temp\surefire17146891086905563224 2022-06-23T22-32-03_940-jvmRun1 surefire12272529300796482331tmp surefire_05901061009272458070tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\melda\eclipse-workspace\testt\target\test-classes;C:\Users\melda\eclipse-workspace\testt\target\classes;C:\Users\melda\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\melda\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\melda\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\melda"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\melda\eclipse-workspace\testt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\melda\AppData\Local\Temp\surefire17146891086905563224\surefirebooter11049684400351009007.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="melda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\melda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\melda\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\melda\eclipse-workspace\testt"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\melda\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php7.3.21;C:\Users\melda\AppData\Local\ComposerSetup\bin;C:\Users\melda\AppData\Roaming\Composer\vendor\bin;C:\Users\melda\AppData\Roaming\npm;C:\Users\melda\AppData\Local\GitHubDesktop\bin;C:\Users\melda\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.meldakose.testt.AppTest" time="0.001"/>
+</testsuite>
