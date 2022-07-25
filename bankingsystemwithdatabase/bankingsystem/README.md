@@ -1,4 +1,4 @@
-# HAFTa 4
+# HAFTA 4
 Arkadaşlar merhaba bu ödevimizde önceki ödevimize ufak bir ekleme yapacağız ve data saklama katmanımızı değiştireceğiz.
 
 1 - Öncelikle ödevinizde daha önce opsiyonel dediğim bazı şeyleri zorunlu hale getiriyoruz. Ekstradan account'a iki yeni bilgi tutacağız.
