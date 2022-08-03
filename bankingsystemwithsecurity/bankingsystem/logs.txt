@@ -1,0 +1,40 @@
+2289182651 deposit amount: 150.0 USD
+2289182651 deposit amount: 200.0 USD
+2289182651 transfer amount: 10.0 USD ,transferred_account: 8640126054
+2289182651 transfer amount: 10.0 USD ,transferred_account: 8640126054
+2289182651 transfer amount: 10.0 USD ,transferred_account: 8640126054
+2289182651 transfer amount: 10.0 USD ,transferred_account: 8640126054
+2289182651 deposit amount: 200.0 USD
+2289182651 deposit amount: 200.0 USD
+2289182651 deposit amount: 200.0 USD
+2289182651 transfer amount: 10.0 USD ,transferred_account: 8640126054
+2289182651 transfer amount: 10.0 USD ,transferred_account: 8640126054
+7852414159 deposit amount: 200.0 TRY
+7852414159 deposit amount: 200.0 TRY
+7852414159 transfer amount: 10.0 TRY ,transferred_account: 5056187354
+7852414159 transfer amount: 10.0 TRY ,transferred_account: 5056187354
+9146976705 deposit amount: 200.0 USD
+9146976705 transfer amount: 10.0 USD ,transferred_account: 7852414159
+9146976705 transfer amount: 10.0 USD ,transferred_account: 7852414159
+9146976705 transfer amount: 10.0 USD ,transferred_account: 5056187354
+9146976705 transfer amount: 10.0 USD ,transferred_account: 5056187354
+9721768083 deposit amount: 200.0 GAU
+9721768083 deposit amount: 200.0 GAU
+9574160621 deposit amount: 200.0 USD
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+9721768083 transfer amount: 10.0 GAU ,transferred_account: 9574160621
+1234567892 deposit amount: 200.0 TRY
+1234567892 transfer amount: 10.0 TRY ,transferred_account: 2479252276
+5858252406 deposit amount: 200.0 USD
+5858252406 deposit amount: 200.0 USD
+5858252406 deposit amount: 200.0 USD
+2438680327 deposit amount: 200.0 USD
+2438680327 deposit amount: 300.0 USD
+2438680327 deposit amount: 300.0 USD
+2438680327 deposit amount: 300.0 USD
+2438680327 transfer amount: 10.0 USD ,transferred_account: 2319846070
